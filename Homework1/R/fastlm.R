@@ -15,6 +15,7 @@ fastlm <-
     l = chol(A)
     beta = backsolve(l, forwardsolve(t(l),B))
     
+    ## change
     #covaviance
     k = ncol(x)
     n = nrow(y)
